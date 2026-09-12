@@ -1,33 +1,37 @@
 # Leomar Moncada
 
-### Senior DevOps / Site Reliability Engineer — Cloud Platforms · Kubernetes · AI/MLOps
+### Senior DevOps / Site Reliability Engineer
 
-10+ years designing, automating, and operating scalable, secure, cloud-native infrastructure on **AWS**, **GCP**, and **Azure**. I build CI/CD pipelines and Infrastructure as Code that teams can move fast on, run production Kubernetes and ECS platforms that stay up, and take the pager when they don't.
+I've spent about ten years building and running cloud infrastructure, mostly on AWS, with a good amount of GCP and Azure along the way. Day to day that usually means making deploys faster and less nerve-racking, keeping Kubernetes and ECS workloads healthy in production, replacing click-ops with Terraform, and carrying the pager when something breaks anyway.
 
-Lately I've been extending that work into **AI/MLOps** — production GenAI systems, RAG pipelines, and GPU-backed inference serving.
+The last couple of years added a new layer: running GenAI workloads in production. RAG pipelines, model CI/CD, and GPU inference that holds up under real traffic.
 
-📍 Málaga, Spain · Open to remote & contract roles · 🌐 [Portfolio](https://leomoncada.github.io/terminal-web/) · 💼 [LinkedIn](https://www.linkedin.com/in/leomar-moncada/) · ✉️ [leomarmoncadah@gmail.com](mailto:leomarmoncadah@gmail.com)
+Based in Málaga, Spain. Open to remote and contract work.
+
+[Portfolio](https://leomoncada.github.io/terminal-web/) · [LinkedIn](https://www.linkedin.com/in/leomar-moncada/) · [leomarmoncadah@gmail.com](mailto:leomarmoncadah@gmail.com)
 
 ---
 
-## What I do
+## Some things I've done
 
-- **Ship faster, safely** — cut CI/CD pipeline runtime from 15 to 5 minutes (~67% faster) and standardized release workflows across ~8 engineering teams.
-- **Keep production up** — 99.9% uptime/SLA on ECS, EKS, and Kubernetes workloads; reduced mean time to detection and resolution by **90%** through better monitoring and alerting.
-- **Operate at scale** — fintech platforms serving **1.2M+ users** (90% serverless AWS) and **9.5M+ users** with 13M+ issued cards.
-- **Cut cost, not corners** — reduced resource usage and cost by up to **80%** in targeted workloads through capacity and performance tuning.
-- **Automate everything** — Terraform and Pulumi modules that took new-environment provisioning from days to minutes, with self-service for product teams.
-- **Security & compliance as a default** — HIPAA, SOC 2, and Central Bank of Panama compliance; sustained **zero high or critical vulnerabilities** with same-day remediation.
-- **Build the AI platform layer** — RAG pipelines, Amazon Bedrock and Anthropic/OpenAI integrations, vector databases, model CI/CD, and scalable GPU inference serving with model monitoring.
+* Took a CI/CD pipeline from 15 minutes down to 5, which changed how often the team was actually willing to ship.
+* Kept ECS, EKS and Kubernetes workloads at 99.9% uptime, and cut time to detect and resolve incidents by 90% by rebuilding monitoring and alerting nobody trusted.
+* Ran fintech platforms at real scale: 1.2M+ users on a 90% serverless AWS architecture, and 9.5M+ users with 13M+ issued cards.
+* Brought resource usage and cost down by up to 80% on specific workloads through capacity and performance tuning.
+* Wrote Terraform and Pulumi modules that took environment provisioning from days to minutes, so product teams stopped filing tickets for it.
+* Handled HIPAA, SOC 2 and Central Bank of Panama compliance, holding zero high or critical vulnerabilities with same-day remediation.
+* Built the platform side of GenAI: RAG pipelines, Amazon Bedrock and Anthropic/OpenAI integrations, vector databases, model CI/CD and GPU inference serving.
+* Set CI/CD and quality standards across roughly 8 engineering teams, together with the dev and QA leads.
 
 ---
 
 ## Featured work
 
-| Project | What it is |
-|---|---|
-| **[aws-ecs-fargate-platform](https://github.com/leomoncada/aws-ecs-fargate-platform)** | A production-shaped AWS deployment: Terraform with isolated state per environment (staging/prod), ECS Fargate behind an ALB, shared ECR, and GitHub Actions CI/CD that builds on staging and promotes the same image to prod. Ships with observability docs, architecture decision records, and runbooks for deploy, rollback, and incidents. |
-| **[terminal-web](https://github.com/leomoncada/terminal-web)** | An interactive terminal-style portfolio (React + TypeScript + Vite), deployed to GitHub Pages via GitHub Actions. → **[Try it](https://leomoncada.github.io/terminal-web/)** |
+**[aws-ecs-fargate-platform](https://github.com/leomoncada/aws-ecs-fargate-platform)**
+A full AWS deployment set up the way I'd actually run it. Terraform with separate state per environment, ECS Fargate behind an ALB, shared ECR, and GitHub Actions that builds on staging and promotes the same image to prod. It also ships the parts people skip: observability docs, architecture decision records, and runbooks for deploy, rollback and incidents.
+
+**[terminal-web](https://github.com/leomoncada/terminal-web)**
+My portfolio, as a terminal you can type into. React, TypeScript and Vite, deployed to GitHub Pages by Actions. [Try it](https://leomoncada.github.io/terminal-web/) and run `help`.
 
 ---
 
@@ -88,17 +92,17 @@ Lately I've been extending that work into **AI/MLOps** — production GenAI syst
 
 ## Certifications
 
-- **[Claude Certified Architect — Foundations](https://www.credly.com/badges/f0494f0d-d723-4752-b6fd-5d869a1de2f9)** · Anthropic, 2026
-- **AWS Certified Solutions Architect — Associate** · Amazon Web Services
+* [Claude Certified Architect, Foundations](https://www.credly.com/badges/f0494f0d-d723-4752-b6fd-5d869a1de2f9) (Anthropic, 2026)
+* AWS Certified Solutions Architect, Associate
 
 ---
 
-## Let's talk
+## Get in touch
 
-I'm open to **Senior DevOps / SRE / Platform Engineering** roles, remote or contract.
+I'm looking at Senior DevOps, SRE and Platform Engineering roles, remote or contract. Easiest way to reach me is email.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/in/leomar-moncada/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:leomarmoncadah@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://leomoncada.github.io/terminal-web/)
 
-<sub>English — professional working proficiency · Spanish — native</sub>
+<sub>English (professional working proficiency) and Spanish (native)</sub>
